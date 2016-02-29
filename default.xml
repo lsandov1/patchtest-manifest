@@ -3,7 +3,7 @@
 
   <default sync-j="4"/>
 
-  <remote fetch="https://github.com/lsandoval/patchtest" name="patchtest"/>
+  <remote fetch="https://github.com/lsandoval" name="patchtest"/>
 
   <project remote="patchtest" revision="master" name="patchtest" path="sources/patchtest"/>
 
