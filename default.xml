@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4"/>
+
+  <remote fetch="https://github.com/lsandoval/patchtest" name="patchtest"/>
+
+  <project remote="patchtest" revision="master" name="patchtest" path="sources/patchtest"/>
+
+</manifest>
