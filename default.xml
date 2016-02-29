@@ -4,7 +4,11 @@
   <default sync-j="4"/>
 
   <remote fetch="https://github.com/lsandoval" name="patchtest"/>
+  <remote fetch="https://github.com/aphran" name="pt-suites"/>
 
-  <project remote="patchtest" revision="master" name="patchtest" path="sources/patchtest"/>
+  <project remote="patchtest" revision="master" name="patchtest"
+	   path="sources/patchtest"/>
+  <project remote="pt-suites" revision="dev" name="pt-suites"
+	   path="sources/pt-suites"/>
 
 </manifest>
